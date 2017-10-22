@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Timeline } from 'react-twitter-widgets';
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
 
 class App extends Component {
   render() {
@@ -23,8 +23,7 @@ class App extends Component {
           screenName: 'thetekton'
         }}
         options={{
-          username: 'TheTekton',
-          height: '400'
+          username: 'TheTekton'
         }}
         onLoad={() => console.log('Twitter timeline loaded...')}
       />
